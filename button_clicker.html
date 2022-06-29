@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="button_clicker.css">
+</head>
+<body>
+    <div id="nav-bar">
+        <h1>Dojonary</h1>
+        <div id="nav-middle">
+            <input type="text" placeholder="Search">
+            <!-- <button>Login</button> -->
+        </div>
+        <button onclick="login(this)">Login</button>
+        
+    </div>
+    <div id="main">
+        <div id="col-left">
+            <div class="box1">
+                <div class="box-left">
+                     <video onmouseover="playVideo(this)" onmouseout="pawsVideo(this)"
+                     src="./3207126058.mp4"></video>
+                    <h3>ninja</h3>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="likes1('#like1')"><span id="#like1">13</span> Likes</button>
+                </div>
+                <div class="box-right">
+                    <p>A proactitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="box1">
+                <div class="box-left">
+                    <h3>ninja</h3>
+                    <em>noun</em>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button onclick="incrementLike('#pup2-count')"><span id="pup2-count">37</span> Likes</button>
+                </div>
+                <div class="box-right">
+                    <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+                </div>
+            </div>
+        </div>
+        <div id="col-right">
+            <div id="upload">
+                <p>Dojonary is defined by <b>YOU</b></p>
+                <button onclick="alert('Definition successfully added!')">Add Definition</button>
+            </div>
+        </div>
+        <div id="cookie-box">
+            <img onmouseout="changeImg2(this)" onmouseover="changeImg(this)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Warning_icon.svg/1153px-Warning_icon.svg.png" alt="Warning_Sign">
+            <p>This site will track all your information and sell it. You will get some dopamine hits from the scrolling though. Please accept this cookie.</p>
+            <button onclick="cookieMonster()">I accept</button>
+        </div>
+
+    <script src="button_clicker.js"></script>
+</body>
+</html>
+
