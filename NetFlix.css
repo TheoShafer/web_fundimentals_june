@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nav_bar{
+    width: 100vw;
+    /* height: 100px; */
+    background-color: black;
+    border-bottom: 3px solid rgb(104, 104, 104);
+    border-top: 3px solid rgb(104, 104, 104);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav_left{
+    /* outline: dotted red; */
+    height: 40px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+#nav_right{
+    /* outline: 1px dotted red; */
+    color: white;
+    height: 10px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+#logo{
+    height: 50px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    /* outline: 1px solid pink; */
+    height: 10px;
+    width: 700px;
+    color: rgb(211, 211, 211);
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+}
+
+#ul_right{
+    width: 250px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+#down_arrow{
+    height: 5px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+#user{
+    height: 20px;
+}
+
+#notification{
+    height: 20px;
+    /* width: 20px; */
+}
+
+#magnifying_glass{
+    height: 25px;
+    /* background-color: red; */
+    margin-left: -170px;
+    opacity: 50%;
+}
+
+#nav_right input{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(216, 216, 216);
+    color: rgb(126, 126, 126);
+    padding-left: 25px;
+    padding-top: 5px;
+    border-radius: 25px;
+    font-size: 25px;
+}
+
+/* ::placeholder{
+    font-size: 25px;
+} */
+
+#background{
+    height: 100vh;
+    background-color: rgb(39, 36, 36);
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+}
+
+#loading{
+    height: 100vh;
+    width: 100vw;
+    /* height: 900px; */
+    /* width: 1100px; */
+    /* justify-content: space-evenly; */
+    /* align-items: center; */
+    outline: 2px solid rgb(39, 36, 36);
+    /* box-sizing: border-box; */
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-items: space-around;
+    vertical-align: middle;
+    align-content: space-around; */
+}
+
+
+
+
